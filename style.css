@@ -89,26 +89,34 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+.hero-bg-container {
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 1rem 8rem;
+  padding: 1rem 0rem;
+  width: 1000px;
+  flex-basis: 100%;
 }
 
 .header-logo {
   font-size: 1.5rem;
   font-weight: 900;
   color: #F9FAF8;
+  flex: 1;
 }
 
 .header-links-list {
   list-style: none;
   display: flex;
   gap: 1rem;
-  margin-left: auto;
 }
 
 .header-link {
@@ -120,20 +128,20 @@ main {
   flex: 1;
   display: flex;
   flex-direction: column;
+  width: 1000px;
 }
 
 .hero-container {
-  background-color: #1f2937;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex: 1;
-  padding: 4rem 4rem;
+  padding: 4rem 0rem;
   gap: 20px;
+  width: 1000px;
 }
 
 .hero-text-container {
-  flex-wrap: wrap;
   display: flex;
   flex-direction: column;
   gap: .500rem;
@@ -211,6 +219,13 @@ gap: 40px;
   font-style: italic;
   font-weight: 300;
   color: #1f2937;
+  width: 1000px;
+}
+
+.quote-author-container {
+  width: 1000px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .quote-author {
