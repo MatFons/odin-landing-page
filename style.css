@@ -45,7 +45,7 @@
 /* dark mode user-agent-styles */
 /* improves punctuation in supported browsers */
 html {
-  color-scheme: dark light;
+  /* color-scheme: dark light; */
   hanging-punctuation: first last;
 }
 
@@ -94,7 +94,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  flex: 1;
+  padding: 1rem 8rem;
 }
 
 .header-logo {
@@ -107,6 +108,7 @@ header {
   list-style: none;
   display: flex;
   gap: 1rem;
+  margin-left: auto;
 }
 
 .header-link {
